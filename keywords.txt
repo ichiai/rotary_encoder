@@ -1,0 +1,19 @@
+#######################################
+# Syntax Coloring Map For RotaryEncoder
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+RotaryEncoder	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+set	KEYWORD2
+get	KEYWORD2
+setLimit	KEYWORD2
+inc	KEYWORD2
+dec	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
