@@ -27,8 +27,6 @@ const int RdLedOut = 15; // Red LED on encoder
  * It configure two input pins for the encoder with the interrupt handler enabled.
  */
 RotaryEncoder encoder(EncAIn, EncBIn);
-// DON'T FORGET below!!!, need this allow to call attachInterrupt from member function in a class.
-RotaryEncoder* RotaryEncoder::_anchor = NULL;   
 
 void setup() {
   // Configure LED drivers

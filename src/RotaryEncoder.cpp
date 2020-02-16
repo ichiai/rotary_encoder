@@ -4,6 +4,8 @@
 #include <Arduino.h>
 #include "RotaryEncoder.h"
 
+RotaryEncoder* RotaryEncoder::_anchor = NULL;
+
 // initialize RotaryEncoder object
 RotaryEncoder::RotaryEncoder(uint8_t a, uint8_t b) 
 {
@@ -102,3 +104,4 @@ void RotaryEncoder::readEnc()
   		}
   	_encoder.curState = nextState;
 }
+
